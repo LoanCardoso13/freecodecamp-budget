@@ -16,3 +16,6 @@ Auto.withdraw(20, 'some repairs')
 Food.budget()
 print()
 create_spend_chart([Food, Clothing, Auto])
+#### Only problem found is that if deposit or withdraw is larger than ####
+#### 7 (6 in case of withdraw) digits then it will overflow ledge     ####
+#### formatting.                                                      ####
